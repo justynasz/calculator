@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Kalkulator</title>
+</head>
+
+<body>
+    <h1>Calculator</h1>
+    <h2 class="warning">Don't divide by zero</h2>
+    <div id="calculator" class="calculator">
+        <button id="clear" class="btn clear">C</button>
+        <div id="viewer" class="viewer">0</div>
+        <button class="btn num" data-num="7">7</button>
+        <button class="btn num" data-num="8">8</button>
+        <button class="btn num" data-num="9">9</button>
+        <button class="btn ops" data-ops="plus">+</button>
+
+        <button class="btn num" data-num="4">4</button>
+        <button class="btn num" data-num="5">5</button>
+        <button class="btn num" data-num="6">6</button>
+        <button class="btn ops" data-ops="minus">-</button>
+
+        <button class="btn num" data-num="1">1</button>
+        <button class="btn num" data-num="2">2</button>
+        <button class="btn num" data-num="3">3</button>
+        <button class="btn ops" data-ops="times">*</button>
+
+        <button class="btn num" data-num="0">0</button>
+        <button class="btn num" data-num=".">.</button>
+        <button class="btn equals" id="equals" data-result="">=</button>
+        <button class="btn ops" data-ops="divided">/</button>
+    </div>
+    <button id="reset" class="reset">Reset Universe?</button>
+    <script src="script.js"></script>
+</body>
+
+</html>
